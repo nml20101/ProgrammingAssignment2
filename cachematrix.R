@@ -1,10 +1,6 @@
 ## Functions makeChaceMatrix and cacheSolve cache the inverse 
 ## of the matrix 
 
-## makeCacheMatrix creates a 'vector' which is a list that
-## contains a function to set the value of the matrix, 
-## get the value of the matrix, set the value of the inverse,
-## and get the value of the inverse
 ## Example to test the functions:
 ## create matrix m1
 ## > m1 <- matrix(c(1,2,3,4), nrow =2, ncol =2)
@@ -25,6 +21,11 @@
 ## [1,]   -2  1.5
 ## [2,]    1 -0.5
 ## > 
+
+## makeCacheMatrix creates a 'vector' which is a list that
+## contains a function to set the value of the matrix, 
+## get the value of the matrix, set the value of the inverse,
+## and get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
